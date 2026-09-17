@@ -1,0 +1,67 @@
+{
+    "fonte": "Banco Central do Brasil",
+    "sistema": "SGS - Sistema Gerenciador de Séries Temporais",
+    "orgao_responsavel": "Banco Central do Brasil",
+    "departamento_responsavel": "Departamento Econômico",
+    "tema": "Dívida Pública",
+    "series": [
+        {
+            "codigo_sgs": 4478,
+            "nome": "Dívida Líquida do Setor Público - Saldos em R$ milhões - Total - Setor público consolidado",
+            "descricao": "A Dívida Líquida do Setor Público (DLSP) corresponde ao balanceamento entre as dívidas e os créditos do setor público não-financeiro e do Banco Central.",
+            "unidade_medida": "Milhões de reais",
+            "periodicidade": "Mensal",
+            "inicio_historico": "2001-12-01",
+            "inicio_coleta": "2001-12-01",
+            "fim_coleta": "2026-07-01",
+            "tipo_serie": "Série temporal mensal",
+            "abrangencia": "Setor público consolidado",
+            "categoria": "Finanças públicas",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4478/dados"
+        },
+        {
+            "codigo_sgs": 4513,
+            "nome": "Dívida Líquida do Setor Público (% PIB) - Total - Setor público consolidado",
+            "descricao": "Dívida Líquida do Setor Público expressa como percentual do Produto Interno Bruto.",
+            "unidade_medida": "Percentual do PIB",
+            "periodicidade": "Mensal",
+            "inicio_historico": "2001-12-01",
+            "inicio_coleta": "2001-12-01",
+            "fim_coleta": "2026-07-01",
+            "tipo_serie": "Série temporal mensal",
+            "abrangencia": "Setor público consolidado",
+            "categoria": "Finanças públicas",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados"
+        },
+        {
+            "codigo_sgs": 13761,
+            "nome": "Dívida Bruta do Governo Geral",
+            "descricao": "Dívida Bruta do Governo Geral, abrangendo os débitos de responsabilidade do Governo Federal, dos governos estaduais e dos governos municipais.",
+            "unidade_medida": "Milhões de reais",
+            "periodicidade": "Mensal",
+            "inicio_historico": "2006-12-01",
+            "inicio_coleta": "2006-12-01",
+            "fim_coleta": "2026-07-01",
+            "tipo_serie": "Série temporal mensal",
+            "abrangencia": "Governo Geral",
+            "metodologia": "Metodologia utilizada a partir de 2008",
+            "categoria": "Finanças públicas",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados"
+        },
+        {
+            "codigo_sgs": 13762,
+            "nome": "Dívida Bruta do Governo Geral (% PIB) - Metodologia utilizada a partir de 2008",
+            "descricao": "Dívida Bruta do Governo Geral expressa como percentual do Produto Interno Bruto.",
+            "unidade_medida": "Percentual do PIB",
+            "periodicidade": "Mensal",
+            "inicio_historico": "2006-12-01",
+            "inicio_coleta": "2006-12-01",
+            "fim_coleta": "2026-07-01",
+            "tipo_serie": "Série temporal mensal",
+            "abrangencia": "Governo Geral",
+            "metodologia": "Metodologia utilizada a partir de 2008",
+            "categoria": "Finanças públicas",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados"
+        }
+    ]
+}

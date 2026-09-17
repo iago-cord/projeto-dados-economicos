@@ -1,0 +1,27 @@
+{
+    "fonte": "Banco Central do Brasil",
+    "sistema": "PTAX",
+    "orgao_responsavel": "Banco Central do Brasil",
+    "tema": "Taxa de câmbio",
+    "series": [
+        {
+            "codigo": "USD",
+            "nome": "Cotação do Dólar por período",
+            "descricao": "Cotações do dólar dos Estados Unidos em relação ao real brasileiro, disponibilizadas pelo sistema PTAX.",
+            "moeda": "USD",
+            "moeda_destino": "BRL",
+            "unidade_medida": "BRL por USD",
+            "periodicidade": "Diária",
+            "inicio_coleta": "2000-01-02",
+            "fim_coleta": "2026-08-31",
+            "tipo_serie": "Cotações diárias",
+            "produto": "PTAX",
+            "endpoint": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)",
+            "parametros": {
+                "@dataInicial": "MM-DD-YYYY",
+                "@dataFinalCotacao": "MM-DD-YYYY",
+                "$format": "json"
+            }
+        }
+    ]
+}

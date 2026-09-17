@@ -1,0 +1,74 @@
+{
+    "fonte": "Banco Central do Brasil",
+    "sistema": "SGS - Sistema Gerenciador de Séries Temporais",
+    "orgao_responsavel": "Banco Central do Brasil",
+    "departamento_responsavel": "Departamento de Operações do Mercado Aberto",
+    "tema": "Taxa Selic",
+    "series": [
+        {
+            "codigo_sgs": 11,
+            "nome": "Taxa de juros - Selic",
+            "descricao": "Taxa média ajustada das operações compromissadas com prazo de um dia útil lastreadas com títulos públicos federais custodiados no Sistema Especial de Liquidação e de Custódia (Selic).",
+            "unidade_medida": "Percentual ao dia",
+            "periodicidade": "Diária",
+            "inicio_historico": "1986-06-04",
+            "inicio_coleta": "2000-01-01",
+            "fim_coleta": null,
+            "tipo_serie": "Série temporal diária",
+            "categoria": "Sistema financeiro",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados"
+        },
+        {
+            "codigo_sgs": 1178,
+            "nome": "Taxa de juros - Selic anualizada base 252",
+            "descricao": "Taxa Selic anualizada em base 252 dias úteis.",
+            "unidade_medida": "Percentual ao ano",
+            "periodicidade": "Diária",
+            "inicio_historico": "1986-06-04",
+            "inicio_coleta": "2000-01-01",
+            "fim_coleta": null,
+            "tipo_serie": "Série temporal diária",
+            "categoria": "Sistema financeiro",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1178/dados"
+        },
+        {
+            "codigo_sgs": 4189,
+            "nome": "Taxa de juros - Selic acumulada no mês anualizada base 252",
+            "descricao": "Taxa Selic acumulada no mês, anualizada com base em 252 dias úteis.",
+            "unidade_medida": "Percentual ao ano",
+            "periodicidade": "Mensal",
+            "inicio_historico": "1986-07-31",
+            "inicio_coleta": "2000-01-01",
+            "fim_coleta": null,
+            "tipo_serie": "Série temporal mensal",
+            "categoria": "Sistema financeiro",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados"
+        },
+        {
+            "codigo_sgs": 432,
+            "nome": "Taxa de juros - Meta Selic definida pelo Copom",
+            "descricao": "Meta da taxa Selic definida pelo Comitê de Política Monetária (Copom).",
+            "unidade_medida": "Percentual ao ano",
+            "periodicidade": "Diária",
+            "inicio_historico": "1999-03-05",
+            "inicio_coleta": "2000-01-01",
+            "fim_coleta": null,
+            "tipo_serie": "Série temporal diária",
+            "categoria": "Política monetária",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados"
+        },
+        {
+            "codigo_sgs": 4390,
+            "nome": "Taxa de juros - Selic acumulada no mês",
+            "descricao": "Taxa Selic acumulada durante o mês.",
+            "unidade_medida": "Percentual ao mês",
+            "periodicidade": "Mensal",
+            "inicio_historico": "1986-07-31",
+            "inicio_coleta": "2000-01-01",
+            "fim_coleta": null,
+            "tipo_serie": "Série temporal mensal",
+            "categoria": "Sistema financeiro",
+            "endpoint": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "fonte": "Instituto Brasileiro de Geografia e Estatística",
+    "sistema": "SIDRA - Sistema IBGE de Recuperação Automática",
+    "orgao_responsavel": "Instituto Brasileiro de Geografia e Estatística",
+    "tema": "Índice Nacional de Preços ao Consumidor Amplo - IPCA",
+    "indicador": "IPCA",
+    "periodicidade": "Mensal",
+    "territorio": "Brasil",
+    "classificacao": {
+        "codigo": 315,
+        "categoria": "7169",
+        "descricao": "Índice geral"
+    },
+    "series": [
+        {
+            "tabela": 655,
+            "nome_tabela": "IPCA - Variação mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços",
+            "periodo_historico": {
+                "inicio": "1999-08",
+                "fim": "2006-06"
+            },
+            "periodo_coleta": {
+                "inicio": "1999-08",
+                "fim": "2006-06"
+            },
+            "variaveis": [
+                63
+            ],
+            "classificacao": "315[7169]",
+            "localidades": "N1[all]"
+        },
+        {
+            "tabela": 2938,
+            "nome_tabela": "IPCA - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços",
+            "periodo_historico": {
+                "inicio": "2006-07",
+                "fim": "2011-12"
+            },
+            "periodo_coleta": {
+                "inicio": "2006-07",
+                "fim": "2011-12"
+            },
+            "variaveis": [
+                63,
+                69
+            ],
+            "classificacao": "315[7169]",
+            "localidades": "N1[all]"
+        },
+        {
+            "tabela": 1419,
+            "nome_tabela": "IPCA - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços",
+            "periodo_historico": {
+                "inicio": "2012-01",
+                "fim": "2019-12"
+            },
+            "periodo_coleta": {
+                "inicio": "2012-01",
+                "fim": "2019-12"
+            },
+            "variaveis": [
+                63,
+                69
+            ],
+            "classificacao": "315[7169]",
+            "localidades": "N1[all]"
+        },
+        {
+            "tabela": 7060,
+            "nome_tabela": "IPCA - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços",
+            "periodo_historico": {
+                "inicio": "2020-01",
+                "fim": null
+            },
+            "periodo_coleta": {
+                "inicio": "2020-01",
+                "fim": "2026-08"
+            },
+            "variaveis": [
+                63,
+                69
+            ],
+            "classificacao": "315[7169]",
+            "localidades": "N1[all]"
+        }
+    ],
+    "endpoint": "https://servicodados.ibge.gov.br/api/v3/agregados/{tabela}/periodos/{periodos}/variaveis/{variaveis}",
+    "parametros": {
+        "localidades": "N1[all]",
+        "classificacao": "315[7169]"
+    }
+}
