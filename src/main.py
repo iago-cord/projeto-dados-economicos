@@ -1,10 +1,10 @@
 from datetime import date
-from functions import salvar_json
+from functions import salvar_json, salvar_parquet
 from request_bcb import buscar_serie_diaria, buscar_serie_mensal, buscar_serie_cambio
 from request_ibge import buscar_dados_ibge
-
+from transform import tratar_ptax, tratar_selic_mensal, tratar_selic_diaria, tratar_divida, tratar_ipca
+'''
 # Requests SELIC - BCB/SGS
-
 # Request Serie 11 - Selic Efetiva Diaria
 serie11 = buscar_serie_diaria(11,date(2000,1,1), date(2026,8,31))
 salvar_json('BCB/SELIC', 'selic_serie11', serie11)
@@ -26,9 +26,8 @@ serie4390 = buscar_serie_mensal(4390,date(2000,1,1), date(2026,8,31))
 salvar_json('BCB/SELIC', 'selic_serie4390', serie4390)
 
 # Requests IPCA - IBGE
-
 # Request Tabela 7060 - IPCA
-ipca7060 = buscar_dados_ibge(7060, date(2020,1,1), date(2020,12,1), ['69','63'], "N1[all]", "315[7169]")
+ipca7060 = buscar_dados_ibge(7060, date(2020,1,1), date(2026,12,1), ['69','63'], "N1[all]", "315[7169]")
 salvar_json('IBGE/IPCA', 'ipca7060', ipca7060)
 
 # Request Tabela 2938 - IPCA
@@ -44,7 +43,6 @@ ipca655 = buscar_dados_ibge(655, date(2000,1,1), date(2006,6,1), ['63'], "N1[all
 salvar_json('IBGE/IPCA','ipca655', ipca655)
 
 # Requests DLSP - BCB/SGS
-
 # Request Serie 4513 - DLSP (% do PIB)
 serie4513 = buscar_serie_mensal(4513,date(2001,12,1), date(2026,7,31))
 salvar_json('BCB/DIVIDA_PUBLICA','dlsp_serie4513', serie4513)
@@ -54,7 +52,6 @@ serie4478= buscar_serie_mensal(4478,date(2001,12,1), date(2026,7,31))
 salvar_json('BCB/DIVIDA_PUBLICA','dlsp_serie4478', serie4478)
 
 # Requests DBGG - BCB/SGS
-
 # Request Serie 13762 - DBGG (% do PIB)
 serie13762 = buscar_serie_mensal(13762,date(2006,12,1), date(2026,7,31))
 salvar_json('BCB/DIVIDA_PUBLICA','dbgg_serie13762', serie13762)
@@ -64,8 +61,38 @@ serie13761 = buscar_serie_mensal(13761,date(2006,12,1), date(2026,7,31))
 salvar_json('BCB/DIVIDA_PUBLICA','dbgg_serie13761', serie13761)
 
 # Requests Cambio/USD - BCB/PTAX
-
 # Requets Cotacao Dolar Periodo
 serie_USD = buscar_serie_cambio('01-03-2000', '31-08-2026')
 salvar_json('BCB/CAMBIO', 'ptax_USD', serie_USD)
+'''
 
+# TRANSFORMAÇÃO
+
+ptax = tratar_ptax('ptax_USD')
+
+divida_liquida = tratar_divida('dlsp_serie4478', 'dlsp_serie4513')
+
+divida_bruta = tratar_divida('dbgg_serie13761', 'dbgg_serie13762')
+
+selic_diaria = tratar_selic_diaria('selic_serie11','selic_serie1178','selic_serie432')
+
+selic_mensal = tratar_selic_mensal('selic_serie4189','selic_serie4390')
+
+lista_ipca = 'ipca1419','ipca2938','ipca7060','ipca655'
+
+ipca = tratar_ipca(lista_ipca)
+
+
+# PERSISTENCIA
+
+salvar_parquet('BCB/CAMBIO', 'ptax', ptax)
+
+salvar_parquet('BCB/DIVIDA','divida_liquida', divida_liquida)
+
+salvar_parquet('BCB/DIVIDA', 'divida_bruta', divida_bruta)
+
+salvar_parquet('BCB/SELIC', 'selic_diaria', selic_diaria)
+
+salvar_parquet('BCB/SELIC', 'selic_mensal', selic_mensal)
+
+salvar_parquet('IBGE/IPCA', 'ipca', ipca)

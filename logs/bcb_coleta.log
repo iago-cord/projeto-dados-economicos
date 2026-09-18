@@ -749,3 +749,305 @@
 2026-09-17 11:25:52,933 - INFO - Moeda USD | 01-03-2000 até 01-03-2026 | Iniciando Requisição
 2026-09-17 11:25:54,792 - INFO - Moeda USD | 01-03-2000 até 01-03-2026 | Requisição concluida | 2 registros retornados
 2026-09-17 11:25:54,824 - INFO - Moeda USD | Coleta Concluida | Total:6534
+2026-09-18 17:06:56,926 - INFO - Série 11 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:06:56,927 - INFO - Série 11 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:07:14,461 - INFO - Série 11 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-18 17:07:14,463 - INFO - Série 11 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-18 17:07:14,463 - INFO - Série 11 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-18 17:07:14,463 - INFO - Série 11 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-18 17:07:31,398 - INFO - Série 11 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-18 17:07:31,402 - INFO - Série 11 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-18 17:07:31,403 - INFO - Série 11 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-18 17:07:31,403 - INFO - Série 11 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:07:49,134 - INFO - Série 11 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-18 17:07:49,138 - INFO - Série 11 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-18 17:07:49,139 - INFO - Série 11 | Coleta concluida | Total: 6697 registros
+2026-09-18 17:07:49,360 - INFO - Série 1178 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:07:49,361 - INFO - Série 1178 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:08:08,275 - INFO - Série 1178 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-18 17:08:08,279 - INFO - Série 1178 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-18 17:08:08,280 - INFO - Série 1178 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-18 17:08:08,281 - INFO - Série 1178 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-18 17:08:28,593 - INFO - Série 1178 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-18 17:08:28,595 - INFO - Série 1178 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-18 17:08:28,595 - INFO - Série 1178 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-18 17:08:28,596 - INFO - Série 1178 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:08:45,469 - INFO - Série 1178 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-18 17:08:45,473 - INFO - Série 1178 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-18 17:08:45,473 - INFO - Série 1178 | Coleta concluida | Total: 6697 registros
+2026-09-18 17:08:45,652 - INFO - Série 4189 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:08:45,652 - INFO - Série 4189 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:08:47,285 - INFO - Série 4189 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:08:47,288 - INFO - Série 4189 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-18 17:08:47,289 - INFO - Série 4189 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-18 17:08:47,289 - INFO - Série 4189 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:08:48,812 - INFO - Série 4189 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:08:48,815 - INFO - Série 4189 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-18 17:08:48,815 - INFO - Série 4189 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-18 17:08:48,815 - INFO - Série 4189 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:08:50,302 - INFO - Série 4189 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-18 17:08:50,307 - INFO - Série 4189 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-18 17:08:50,307 - INFO - Série 4189 | Coleta concluida | Total: 320 registros
+2026-09-18 17:08:50,328 - INFO - Série 432 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:08:50,328 - INFO - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:09:21,127 - WARNING - Série 432 | 2000-01-01 até 2009-01-01 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-18 17:09:23,129 - INFO - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:09:54,074 - WARNING - Série 432 | 2000-01-01 até 2009-01-01 | Tentativa 2/3 falhou | status=None | aguardando=4s
+2026-09-18 17:09:58,075 - INFO - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:09:59,176 - INFO - Série 432 | 2000-01-01 até 2009-01-01 | Requisição concluida | 3289 registros retornados
+2026-09-18 17:09:59,178 - INFO - Série 432 | Periodo 2000-01-01 até 2009-01-01 concluido | 3289 registros
+2026-09-18 17:09:59,179 - INFO - Série 432 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-18 17:09:59,179 - INFO - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:10:29,994 - WARNING - Série 432 | 2009-02-01 até 2018-02-01 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-18 17:10:31,995 - INFO - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:11:03,013 - WARNING - Série 432 | 2009-02-01 até 2018-02-01 | Tentativa 2/3 falhou | status=None | aguardando=4s
+2026-09-18 17:11:07,014 - INFO - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:11:08,052 - INFO - Série 432 | 2009-02-01 até 2018-02-01 | Requisição concluida | 3288 registros retornados
+2026-09-18 17:11:08,054 - INFO - Série 432 | Periodo 2009-02-01 até 2018-02-01 concluido | 3288 registros
+2026-09-18 17:11:08,054 - INFO - Série 432 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-18 17:11:08,054 - INFO - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:11:38,831 - WARNING - Série 432 | 2018-03-01 até 2026-08-31 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-18 17:11:40,832 - INFO - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:11:41,950 - INFO - Série 432 | 2018-03-01 até 2026-08-31 | Requisição concluida | 3106 registros retornados
+2026-09-18 17:11:41,953 - INFO - Série 432 | Periodo 2018-03-01 até 2026-08-31 concluido | 3106 registros
+2026-09-18 17:11:41,954 - INFO - Série 432 | Coleta concluida | Total: 9683 registros
+2026-09-18 17:11:42,269 - INFO - Série 4390 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:11:42,269 - INFO - Série 4390 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:11:43,805 - INFO - Série 4390 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:11:43,809 - INFO - Série 4390 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-18 17:11:43,809 - INFO - Série 4390 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-18 17:11:43,810 - INFO - Série 4390 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:11:45,433 - INFO - Série 4390 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:11:45,436 - INFO - Série 4390 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-18 17:11:45,436 - INFO - Série 4390 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-18 17:11:45,437 - INFO - Série 4390 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:11:46,938 - INFO - Série 4390 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-18 17:11:46,942 - INFO - Série 4390 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-18 17:11:46,942 - INFO - Série 4390 | Coleta concluida | Total: 320 registros
+2026-09-18 17:11:46,973 - INFO - Tabela 7060 | Coletando Periodo 2020-01-01 até 2026-12-01
+2026-09-18 17:11:46,973 - INFO - Tabela 7060 | 2020-01-01 até 2026-12-01 | Iniciando Requisição
+2026-09-18 17:11:48,061 - INFO - Tabela 7060 | 2020-01-01 até 2026-12-01 | Requisição concluida | 2 registros retornados
+2026-09-18 17:11:48,065 - INFO - Tabela 7060 | Coleta concluida | Total: 160 registros
+2026-09-18 17:11:48,087 - INFO - Tabela 2938 | Coletando Periodo 2006-07-01 até 2011-12-01
+2026-09-18 17:11:48,087 - INFO - Tabela 2938 | 2006-07-01 até 2011-12-01 | Iniciando Requisição
+2026-09-18 17:11:49,207 - INFO - Tabela 2938 | 2006-07-01 até 2011-12-01 | Requisição concluida | 2 registros retornados
+2026-09-18 17:11:49,210 - INFO - Tabela 2938 | Coleta concluida | Total: 132 registros
+2026-09-18 17:11:49,232 - INFO - Tabela 1419 | Coletando Periodo 2012-01-01 até 2019-12-01
+2026-09-18 17:11:49,232 - INFO - Tabela 1419 | 2012-01-01 até 2019-12-01 | Iniciando Requisição
+2026-09-18 17:11:50,457 - INFO - Tabela 1419 | 2012-01-01 até 2019-12-01 | Requisição concluida | 2 registros retornados
+2026-09-18 17:11:50,461 - INFO - Tabela 1419 | Coleta concluida | Total: 192 registros
+2026-09-18 17:11:50,490 - INFO - Tabela 655 | Coletando Periodo 2000-01-01 até 2006-06-01
+2026-09-18 17:11:50,490 - INFO - Tabela 655 | 2000-01-01 até 2006-06-01 | Iniciando Requisição
+2026-09-18 17:11:51,543 - INFO - Tabela 655 | 2000-01-01 até 2006-06-01 | Requisição concluida | 1 registros retornados
+2026-09-18 17:11:51,546 - INFO - Tabela 655 | Coleta concluida | Total: 78 registros
+2026-09-18 17:11:51,562 - INFO - Série 4513 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-18 17:11:51,562 - INFO - Série 4513 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-18 17:11:52,898 - INFO - Série 4513 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:11:52,901 - INFO - Série 4513 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-18 17:11:52,902 - INFO - Série 4513 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-18 17:11:52,902 - INFO - Série 4513 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-18 17:11:54,298 - INFO - Série 4513 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:11:54,301 - INFO - Série 4513 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-18 17:11:54,301 - INFO - Série 4513 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-18 17:11:54,301 - INFO - Série 4513 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-18 17:11:55,578 - INFO - Série 4513 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-18 17:11:55,580 - INFO - Série 4513 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-18 17:11:55,580 - INFO - Série 4513 | Coleta concluida | Total: 296 registros
+2026-09-18 17:11:55,607 - INFO - Série 4478 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-18 17:11:55,607 - INFO - Série 4478 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-18 17:11:57,036 - INFO - Série 4478 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:11:57,039 - INFO - Série 4478 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-18 17:11:57,039 - INFO - Série 4478 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-18 17:11:57,039 - INFO - Série 4478 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-18 17:11:58,392 - INFO - Série 4478 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:11:58,395 - INFO - Série 4478 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-18 17:11:58,395 - INFO - Série 4478 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-18 17:11:58,395 - INFO - Série 4478 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-18 17:12:00,025 - INFO - Série 4478 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-18 17:12:00,027 - INFO - Série 4478 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-18 17:12:00,027 - INFO - Série 4478 | Coleta concluida | Total: 296 registros
+2026-09-18 17:12:00,044 - INFO - Série 13762 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-18 17:12:00,044 - INFO - Série 13762 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-18 17:12:01,680 - INFO - Série 13762 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:12:01,682 - INFO - Série 13762 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-18 17:12:01,682 - INFO - Série 13762 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-18 17:12:01,682 - INFO - Série 13762 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-18 17:12:03,479 - INFO - Série 13762 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:12:03,482 - INFO - Série 13762 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-18 17:12:03,482 - INFO - Série 13762 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-18 17:12:03,482 - INFO - Série 13762 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-18 17:12:04,766 - INFO - Série 13762 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-18 17:12:04,769 - INFO - Série 13762 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-18 17:12:04,770 - INFO - Série 13762 | Coleta concluida | Total: 236 registros
+2026-09-18 17:12:04,794 - INFO - Série 13761 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-18 17:12:04,795 - INFO - Série 13761 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-18 17:12:06,161 - INFO - Série 13761 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:12:06,164 - INFO - Série 13761 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-18 17:12:06,165 - INFO - Série 13761 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-18 17:12:06,165 - INFO - Série 13761 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-18 17:12:07,706 - INFO - Série 13761 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:12:07,708 - INFO - Série 13761 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-18 17:12:07,708 - INFO - Série 13761 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-18 17:12:07,708 - INFO - Série 13761 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-18 17:12:10,267 - INFO - Série 13761 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-18 17:12:10,270 - INFO - Série 13761 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-18 17:12:10,271 - INFO - Série 13761 | Coleta concluida | Total: 236 registros
+2026-09-18 17:12:10,302 - INFO - Moeda USD | Coletando Periodo 01-03-2000 até 31-08-2026
+2026-09-18 17:12:10,302 - INFO - Moeda USD | 01-03-2000 até 31-08-2026 | Iniciando Requisição
+2026-09-18 17:12:11,324 - WARNING - Moeda USD | 01-03-2000 até 31-08-2026 | Tentativa 1/3 falhou | status=500 | aguardando=2s
+2026-09-18 17:12:13,325 - INFO - Moeda USD | 01-03-2000 até 31-08-2026 | Iniciando Requisição
+2026-09-18 17:12:14,345 - WARNING - Moeda USD | 01-03-2000 até 31-08-2026 | Tentativa 2/3 falhou | status=500 | aguardando=4s
+2026-09-18 17:12:18,346 - INFO - Moeda USD | 01-03-2000 até 31-08-2026 | Iniciando Requisição
+2026-09-18 17:12:19,398 - ERROR - Moeda USD | 01-03-2000 até 31-08-2026 | Falha definitiva após 3 tentativas | status=500
+2026-09-18 17:39:22,109 - INFO - Série 11 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:39:22,110 - INFO - Série 11 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:39:40,316 - INFO - Série 11 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-18 17:39:40,319 - INFO - Série 11 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-18 17:39:40,319 - INFO - Série 11 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-18 17:39:40,320 - INFO - Série 11 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-18 17:39:59,224 - INFO - Série 11 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-18 17:39:59,227 - INFO - Série 11 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-18 17:39:59,228 - INFO - Série 11 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-18 17:39:59,228 - INFO - Série 11 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:40:16,313 - INFO - Série 11 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-18 17:40:16,317 - INFO - Série 11 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-18 17:40:16,318 - INFO - Série 11 | Coleta concluida | Total: 6697 registros
+2026-09-18 17:40:16,545 - INFO - Série 1178 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:40:16,546 - INFO - Série 1178 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:40:33,596 - INFO - Série 1178 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-18 17:40:33,598 - INFO - Série 1178 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-18 17:40:33,599 - INFO - Série 1178 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-18 17:40:33,599 - INFO - Série 1178 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-18 17:40:51,073 - INFO - Série 1178 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-18 17:40:51,077 - INFO - Série 1178 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-18 17:40:51,078 - INFO - Série 1178 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-18 17:40:51,079 - INFO - Série 1178 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:41:08,664 - INFO - Série 1178 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-18 17:41:08,667 - INFO - Série 1178 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-18 17:41:08,667 - INFO - Série 1178 | Coleta concluida | Total: 6697 registros
+2026-09-18 17:41:08,869 - INFO - Série 4189 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:41:08,869 - INFO - Série 4189 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:41:10,499 - INFO - Série 4189 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:41:10,502 - INFO - Série 4189 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-18 17:41:10,503 - INFO - Série 4189 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-18 17:41:10,503 - INFO - Série 4189 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:41:11,974 - INFO - Série 4189 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:41:11,978 - INFO - Série 4189 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-18 17:41:11,978 - INFO - Série 4189 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-18 17:41:11,978 - INFO - Série 4189 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:41:13,600 - INFO - Série 4189 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-18 17:41:13,603 - INFO - Série 4189 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-18 17:41:13,604 - INFO - Série 4189 | Coleta concluida | Total: 320 registros
+2026-09-18 17:41:13,629 - INFO - Série 432 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:41:13,629 - INFO - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:41:44,517 - WARNING - Série 432 | 2000-01-01 até 2009-01-01 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-18 17:41:46,519 - INFO - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:42:17,430 - WARNING - Série 432 | 2000-01-01 até 2009-01-01 | Tentativa 2/3 falhou | status=None | aguardando=4s
+2026-09-18 17:42:21,432 - INFO - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:42:22,680 - INFO - Série 432 | 2000-01-01 até 2009-01-01 | Requisição concluida | 3289 registros retornados
+2026-09-18 17:42:22,683 - INFO - Série 432 | Periodo 2000-01-01 até 2009-01-01 concluido | 3289 registros
+2026-09-18 17:42:22,683 - INFO - Série 432 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-18 17:42:22,683 - INFO - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:42:53,526 - WARNING - Série 432 | 2009-02-01 até 2018-02-01 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-18 17:42:55,528 - INFO - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:43:26,362 - WARNING - Série 432 | 2009-02-01 até 2018-02-01 | Tentativa 2/3 falhou | status=None | aguardando=4s
+2026-09-18 17:43:30,364 - INFO - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:43:31,740 - INFO - Série 432 | 2009-02-01 até 2018-02-01 | Requisição concluida | 3288 registros retornados
+2026-09-18 17:43:31,746 - INFO - Série 432 | Periodo 2009-02-01 até 2018-02-01 concluido | 3288 registros
+2026-09-18 17:43:31,746 - INFO - Série 432 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-18 17:43:31,747 - INFO - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:44:02,801 - WARNING - Série 432 | 2018-03-01 até 2026-08-31 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-18 17:44:04,802 - INFO - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:44:35,761 - WARNING - Série 432 | 2018-03-01 até 2026-08-31 | Tentativa 2/3 falhou | status=None | aguardando=4s
+2026-09-18 17:44:39,762 - INFO - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:44:40,684 - INFO - Série 432 | 2018-03-01 até 2026-08-31 | Requisição concluida | 3106 registros retornados
+2026-09-18 17:44:40,687 - INFO - Série 432 | Periodo 2018-03-01 até 2026-08-31 concluido | 3106 registros
+2026-09-18 17:44:40,688 - INFO - Série 432 | Coleta concluida | Total: 9683 registros
+2026-09-18 17:44:40,919 - INFO - Série 4390 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-18 17:44:40,920 - INFO - Série 4390 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-18 17:44:42,328 - INFO - Série 4390 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:44:42,332 - INFO - Série 4390 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-18 17:44:42,332 - INFO - Série 4390 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-18 17:44:42,332 - INFO - Série 4390 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-18 17:44:43,864 - INFO - Série 4390 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:44:43,867 - INFO - Série 4390 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-18 17:44:43,867 - INFO - Série 4390 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-18 17:44:43,867 - INFO - Série 4390 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-18 17:44:45,329 - INFO - Série 4390 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-18 17:44:45,333 - INFO - Série 4390 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-18 17:44:45,333 - INFO - Série 4390 | Coleta concluida | Total: 320 registros
+2026-09-18 17:44:45,365 - INFO - Tabela 7060 | Coletando Periodo 2020-01-01 até 2026-12-01
+2026-09-18 17:44:45,365 - INFO - Tabela 7060 | 2020-01-01 até 2026-12-01 | Iniciando Requisição
+2026-09-18 17:44:46,488 - INFO - Tabela 7060 | 2020-01-01 até 2026-12-01 | Requisição concluida | 2 registros retornados
+2026-09-18 17:44:46,491 - INFO - Tabela 7060 | Coleta concluida | Total: 160 registros
+2026-09-18 17:44:46,518 - INFO - Tabela 2938 | Coletando Periodo 2006-07-01 até 2011-12-01
+2026-09-18 17:44:46,518 - INFO - Tabela 2938 | 2006-07-01 até 2011-12-01 | Iniciando Requisição
+2026-09-18 17:44:47,536 - INFO - Tabela 2938 | 2006-07-01 até 2011-12-01 | Requisição concluida | 2 registros retornados
+2026-09-18 17:44:47,539 - INFO - Tabela 2938 | Coleta concluida | Total: 132 registros
+2026-09-18 17:44:47,562 - INFO - Tabela 1419 | Coletando Periodo 2012-01-01 até 2019-12-01
+2026-09-18 17:44:47,562 - INFO - Tabela 1419 | 2012-01-01 até 2019-12-01 | Iniciando Requisição
+2026-09-18 17:44:48,690 - INFO - Tabela 1419 | 2012-01-01 até 2019-12-01 | Requisição concluida | 2 registros retornados
+2026-09-18 17:44:48,694 - INFO - Tabela 1419 | Coleta concluida | Total: 192 registros
+2026-09-18 17:44:48,717 - INFO - Tabela 655 | Coletando Periodo 2000-01-01 até 2006-06-01
+2026-09-18 17:44:48,717 - INFO - Tabela 655 | 2000-01-01 até 2006-06-01 | Iniciando Requisição
+2026-09-18 17:44:49,845 - INFO - Tabela 655 | 2000-01-01 até 2006-06-01 | Requisição concluida | 1 registros retornados
+2026-09-18 17:44:49,849 - INFO - Tabela 655 | Coleta concluida | Total: 78 registros
+2026-09-18 17:44:49,867 - INFO - Série 4513 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-18 17:44:49,867 - INFO - Série 4513 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-18 17:44:52,850 - INFO - Série 4513 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:44:52,854 - INFO - Série 4513 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-18 17:44:52,854 - INFO - Série 4513 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-18 17:44:52,854 - INFO - Série 4513 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-18 17:44:54,437 - INFO - Série 4513 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:44:54,439 - INFO - Série 4513 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-18 17:44:54,440 - INFO - Série 4513 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-18 17:44:54,440 - INFO - Série 4513 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-18 17:44:55,650 - INFO - Série 4513 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-18 17:44:55,652 - INFO - Série 4513 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-18 17:44:55,653 - INFO - Série 4513 | Coleta concluida | Total: 296 registros
+2026-09-18 17:44:55,683 - INFO - Série 4478 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-18 17:44:55,684 - INFO - Série 4478 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-18 17:44:57,338 - INFO - Série 4478 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:44:57,339 - INFO - Série 4478 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-18 17:44:57,340 - INFO - Série 4478 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-18 17:44:57,340 - INFO - Série 4478 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-18 17:44:59,011 - INFO - Série 4478 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:44:59,014 - INFO - Série 4478 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-18 17:44:59,014 - INFO - Série 4478 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-18 17:44:59,014 - INFO - Série 4478 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-18 17:45:00,654 - INFO - Série 4478 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-18 17:45:00,657 - INFO - Série 4478 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-18 17:45:00,657 - INFO - Série 4478 | Coleta concluida | Total: 296 registros
+2026-09-18 17:45:00,692 - INFO - Série 13762 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-18 17:45:00,693 - INFO - Série 13762 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-18 17:45:02,037 - INFO - Série 13762 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:45:02,041 - INFO - Série 13762 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-18 17:45:02,041 - INFO - Série 13762 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-18 17:45:02,041 - INFO - Série 13762 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-18 17:45:03,432 - INFO - Série 13762 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:45:03,435 - INFO - Série 13762 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-18 17:45:03,435 - INFO - Série 13762 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-18 17:45:03,436 - INFO - Série 13762 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-18 17:45:04,807 - INFO - Série 13762 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-18 17:45:04,809 - INFO - Série 13762 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-18 17:45:04,810 - INFO - Série 13762 | Coleta concluida | Total: 236 registros
+2026-09-18 17:45:04,835 - INFO - Série 13761 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-18 17:45:04,836 - INFO - Série 13761 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-18 17:45:06,273 - INFO - Série 13761 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:45:06,276 - INFO - Série 13761 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-18 17:45:06,277 - INFO - Série 13761 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-18 17:45:06,277 - INFO - Série 13761 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-18 17:45:07,722 - INFO - Série 13761 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-18 17:45:07,729 - INFO - Série 13761 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-18 17:45:07,730 - INFO - Série 13761 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-18 17:45:07,730 - INFO - Série 13761 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-18 17:45:09,055 - INFO - Série 13761 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-18 17:45:09,059 - INFO - Série 13761 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-18 17:45:09,060 - INFO - Série 13761 | Coleta concluida | Total: 236 registros
+2026-09-18 17:45:09,084 - INFO - Moeda USD | Coletando Periodo 01-03-2000 até 31-08-2026
+2026-09-18 17:45:09,084 - INFO - Moeda USD | 01-03-2000 até 31-08-2026 | Iniciando Requisição
+2026-09-18 17:45:09,976 - WARNING - Moeda USD | 01-03-2000 até 31-08-2026 | Tentativa 1/3 falhou | status=500 | aguardando=2s
+2026-09-18 17:45:11,977 - INFO - Moeda USD | 01-03-2000 até 31-08-2026 | Iniciando Requisição
+2026-09-18 17:45:12,950 - WARNING - Moeda USD | 01-03-2000 até 31-08-2026 | Tentativa 2/3 falhou | status=500 | aguardando=4s
+2026-09-18 17:45:16,951 - INFO - Moeda USD | 01-03-2000 até 31-08-2026 | Iniciando Requisição
+2026-09-18 17:45:17,765 - ERROR - Moeda USD | 01-03-2000 até 31-08-2026 | Falha definitiva após 3 tentativas | status=500
