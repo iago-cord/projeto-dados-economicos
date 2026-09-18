@@ -4,10 +4,12 @@ from dateutil.relativedelta import relativedelta
 import time
 import logging
 from pathlib import Path
+import pandas as pd 
 
 ROOT = Path(__file__).resolve().parent.parent
 LOGS = ROOT/"logs"
 DATA = ROOT/"data"/"RAW"
+PROCESSED = ROOT/'data'/'PROCESSED'
 LOGS.mkdir(exist_ok=True)
 DATA.mkdir(exist_ok=True)
 
@@ -97,5 +99,29 @@ def gerar_periodos_ibge(dt_inicio, dt_final):
         
     return "|".join(periodos)
 
+def extrair_json(df, id):
+    
+    series = df.loc[df['id'] == id, 'resultados'].iloc[0]
+    
+    serie = series[0]['series'][0]['serie']
+    
+    dados = []
+    
+    for periodo, valor in serie.items():
+        dados.append({"periodo":periodo, "valor":valor})
+        
+    return dados
 
+def tipos_coluna(df):
+    df_copia = df.copy()
+    df_copia['data'] = pd.to_datetime(df_copia['data'], dayfirst=True)
+    df_copia['valor'] = pd.to_numeric(df_copia['valor'])
+    
+    return df_copia
 
+def salvar_parquet (pasta, nome_arquivo, dados):
+    caminho = PROCESSED/pasta/f'{nome_arquivo}.parquet'
+    
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+    
+    dados.to_parquet(caminho, index=False)

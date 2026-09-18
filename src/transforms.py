@@ -1,51 +1,137 @@
 import pandas as pd
+from functions import extrair_json, tipos_coluna, salvar_parquet
+from pathlib import Path
 
-ptax = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\CAMBIO\ptax_USD.json')
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT/'data'
+RAW = DATA/'RAW'
+BCB = RAW/'BCB'
+IBGE = RAW/'IBGE'
+CAMBIO = BCB/'CAMBIO'
+DIVIDA = BCB/'DIVIDA_PUBLICA'
+SELIC = BCB/'SELIC'
+IPCA = IBGE/'IPCA'
 
-dbgg13761 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\DIVIDA_PUBLICA\dbgg_serie13761.json')
+ptax = pd.read_json(CAMBIO/'ptax_USD.json')
 
-dbgg13762 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\DIVIDA_PUBLICA\dbgg_serie13762.json')
+dbgg13761 = pd.read_json(DIVIDA/'dbgg_serie13761.json')
 
-dlsp4478 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\DIVIDA_PUBLICA\dlsp_serie4478.json')
+dbgg13762 = pd.read_json(DIVIDA/'dbgg_serie13762.json')
 
-dlsp4513 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\DIVIDA_PUBLICA\dlsp_serie4513.json')
+dlsp4478 = pd.read_json(DIVIDA/'dlsp_serie4478.json')
 
-selic11 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\SELIC\selic_serie11.json')
+dlsp4513 = pd.read_json(DIVIDA/'dlsp_serie4513.json')
 
-selic1178 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\SELIC\selic_serie1178.json')
+selic11 = pd.read_json(SELIC/'selic_serie11.json')
 
-selic432 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\SELIC\selic_serie432.json')
+selic1178 = pd.read_json(SELIC/'selic_serie1178.json')
 
-selic4189 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\SELIC\selic_serie4189.json')
+selic432 = pd.read_json(SELIC/'selic_serie432.json')
 
-selic4390 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\BCB\SELIC\selic_serie4390.json')
+selic4189 = pd.read_json(SELIC/'selic_serie4189.json')
 
-ipca655 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\IBGE\IPCA\ipca655.json')
+selic4390 = pd.read_json(SELIC/'selic_serie4390.json')
 
-serie = ipca655.loc[0,"resultados"][0]["series"][0]["serie"]
+ipca655 = pd.read_json(IPCA/'ipca655.json')
 
-ipca655_63 = []
+ipca1419 = pd.read_json(IPCA/'ipca1419.json')
 
-for periodo, valor in serie.items():
-    ipca655_63.append({"periodo":periodo,"valor":valor})
+ipca2938 = pd.read_json(IPCA/'ipca2938.json')
 
-ipca655_final = pd.DataFrame(ipca655_63)
+ipca7060 = pd.read_json(IPCA/'ipca7060.json')
 
-ipca1419 = pd.read_json(r'C:\Users\imercado2\OneDrive - GIRANDO COMERCIO DE PECAS LTDA\iMercado - Eder Iago\ProjAPI\data\RAW\IBGE\IPCA\ipca1419.json')
+ipca655_63 = pd.DataFrame(extrair_json(ipca655,63))
+
+ipca1419_63 = pd.DataFrame(extrair_json(ipca1419,63))
+
+ipca1419_69 = pd.DataFrame(extrair_json(ipca1419,69))
+
+ipca2938_63 = pd.DataFrame(extrair_json(ipca2938,63))
+
+ipca2938_69 = pd.DataFrame(extrair_json(ipca2938,69))
+
+ipca7060_63 = pd.DataFrame(extrair_json(ipca7060,63))
+
+ipca7060_69 = pd.DataFrame(extrair_json(ipca7060,69))
+
+ptax['dataHoraCotacao'] = pd.to_datetime(ptax['dataHoraCotacao'])
+
+ptax['data'] = ptax['dataHoraCotacao'].dt.date
+
+ptax.drop(columns=['dataHoraCotacao'], inplace=True)
+
+ptax = ptax.reindex(columns=['data', 'cotacaoCompra', 'cotacaoVenda'])
+
+ptax = ptax.astype({'data':'datetime64[us]', 'cotacaoCompra':'float64', 'cotacaoVenda':'float64'})
+
+lista_ipca = [ipca655_63, ipca1419_63, ipca1419_69, ipca2938_63, ipca2938_69, ipca7060_63, ipca7060_69]
+
+for df in lista_ipca:
+    df.rename(columns={'periodo':'data'}, inplace=True)
+    df['data'] = pd.to_datetime(df['data'], format="%Y%m")
+
+dbgg13761 = tipos_coluna(dbgg13761)
+
+dbgg13762 = tipos_coluna(dbgg13762)
+
+dlsp4513 = tipos_coluna(dlsp4513)
+
+dlsp4478 = tipos_coluna(dlsp4478)
+
+selic11 = tipos_coluna(selic11)
+
+selic1178 = tipos_coluna(selic1178)
+
+selic432 = tipos_coluna(selic432)
+
+selic4189 = tipos_coluna(selic4189)
+
+selic4390 = tipos_coluna(selic4390)
+
+salvar_parquet('BCB/CAMBIO', 'ptax', ptax)
+
+salvar_parquet('BCB/DIVIDA', 'dbgg13761', dbgg13761)
+
+salvar_parquet('BCB/DIVIDA', 'dbgg13762', dbgg13762)
+
+salvar_parquet('BCB/DIVIDA', 'dlsp4513', dlsp4513)
+
+salvar_parquet('BCB/DIVIDA', 'dlsp4478', dlsp4478)
+
+salvar_parquet('BCB/SELIC','selic11', selic11)
+
+salvar_parquet('BCB/SELIC','selic1178', selic1178)
+
+salvar_parquet('BCB/SELIC','selic432', selic432)
+
+salvar_parquet('BCB/SELIC','selic4189', selic4189)
+
+salvar_parquet('BCB/SELIC','selic4390', selic4390)
+
+salvar_parquet('IBGE/IPCA','ipca655_63', ipca655_63)
+
+salvar_parquet('IBGE/IPCA','ipca1419_63', ipca1419_63)
+
+salvar_parquet('IBGE/IPCA','ipca1419_69', ipca1419_69)
+
+salvar_parquet('IBGE/IPCA','ipca2938_63', ipca2938_63)
+
+salvar_parquet('IBGE/IPCA','ipca2938_69', ipca2938_69)
+
+salvar_parquet('IBGE/IPCA','ipca7060_63', ipca7060_63)
+
+salvar_parquet('IBGE/IPCA','ipca7060_69', ipca7060_69)
 
 
-ipca1419_63 = ipca1419.loc[ipca1419['id'] == 63, 'resultados'].iloc[0]
-
-ipca1419_63_final = ipca1419_63[0]['series'][0]['serie']
 
 
 
+  
 
-#print(ipca655_final)
+    
 
-#print(ipca1419.columns)
-#print(ipca1419.head())
-print(ipca1419_63_final)
-#print(ipca655)
-#resultado = ipca655.loc[0, "resultados"]
-#print(type(resultado))
+
+
+
+
+
