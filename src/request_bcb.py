@@ -1,6 +1,7 @@
 from datetime import date, timedelta
 from dateutil.relativedelta import relativedelta
 import logging
+import logger
 from pathlib import Path
 from functions import retry_request
 
@@ -10,12 +11,6 @@ DATA = ROOT/"data"
 LOGS.mkdir(exist_ok=True)
 DATA.mkdir(exist_ok=True)
 
-logging.basicConfig(
-    filename=LOGS/'bcb_coleta.log',
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    encoding='utf-8'
-)
 logger = logging.getLogger(__name__)
 
 def buscar_serie_diaria(serie, dt_inicio, dt_final):

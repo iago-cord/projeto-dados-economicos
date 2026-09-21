@@ -3,6 +3,7 @@ import json
 from dateutil.relativedelta import relativedelta
 import time
 import logging
+import logger
 from pathlib import Path
 import pandas as pd 
 
@@ -14,19 +15,6 @@ LOGS.mkdir(exist_ok=True)
 DATA.mkdir(exist_ok=True)
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-
-file_handler = logging.FileHandler(LOGS / "pipeline_coleta.log", encoding="utf-8")
-
-console_handler = logging.StreamHandler()
-
-file_handler.setFormatter(formatter)
-console_handler.setFormatter(formatter)
-
-logger.addHandler(file_handler)
-logger.addHandler(console_handler)
 
 def retry_request(url, params, headers = None, tentativas=3, espera=2, contexto = None):
     

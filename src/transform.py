@@ -2,7 +2,11 @@ import pandas as pd
 from functions import extrair_json, tipos_coluna, salvar_parquet
 from pathlib import Path
 from functools import reduce
+import psycopg
+import logging
+import logger
 
+logger = logging.getLogger(__name__)
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT/'data'
 RAW = DATA/'RAW'
@@ -76,6 +80,11 @@ def tratar_selic_mensal(arquivo1, arquivo2):
     
     selic['data'] = pd.to_datetime(selic['data'], dayfirst=True)
     
+    selic.rename(columns={
+        'valor_x':'selic_acum_anualizada',
+        'valor_y': 'selic_acum_mensal'
+    })
+    
     return selic  
    
 lista_ipca = 'ipca1419','ipca2938','ipca7060','ipca655'
@@ -118,6 +127,8 @@ def tratar_ipca(lista_df):
     ipca = ipca.sort_values(by='data', ascending=True)
                 
     return ipca
+
+
 
 
 

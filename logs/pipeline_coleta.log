@@ -228,3 +228,484 @@
 2026-09-18 17:45:12,950 - WARNING - Moeda USD | 01-03-2000 até 31-08-2026 | Tentativa 2/3 falhou | status=500 | aguardando=4s
 2026-09-18 17:45:16,951 - INFO - Moeda USD | 01-03-2000 até 31-08-2026 | Iniciando Requisição
 2026-09-18 17:45:17,765 - ERROR - Moeda USD | 01-03-2000 até 31-08-2026 | Falha definitiva após 3 tentativas | status=500
+2026-09-21 17:30:48,196 - INFO - request_bcb - Série 11 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:30:48,198 - INFO - functions - Série 11 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:30:49,458 - INFO - functions - Série 11 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-21 17:30:49,460 - INFO - request_bcb - Série 11 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-21 17:30:49,461 - INFO - request_bcb - Série 11 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-21 17:30:49,461 - INFO - functions - Série 11 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-21 17:30:50,933 - INFO - functions - Série 11 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-21 17:30:50,935 - INFO - request_bcb - Série 11 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-21 17:30:50,936 - INFO - request_bcb - Série 11 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-21 17:30:50,936 - INFO - functions - Série 11 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:31:07,873 - INFO - functions - Série 11 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-21 17:31:07,878 - INFO - request_bcb - Série 11 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-21 17:31:07,879 - INFO - request_bcb - Série 11 | Coleta concluida | Total: 6697 registros
+2026-09-21 17:31:08,104 - INFO - request_bcb - Série 1178 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:31:08,105 - INFO - functions - Série 1178 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:31:26,672 - INFO - functions - Série 1178 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-21 17:31:26,674 - INFO - request_bcb - Série 1178 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-21 17:31:26,675 - INFO - request_bcb - Série 1178 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-21 17:31:26,675 - INFO - functions - Série 1178 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-21 17:31:44,982 - INFO - functions - Série 1178 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-21 17:31:44,984 - INFO - request_bcb - Série 1178 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-21 17:31:44,984 - INFO - request_bcb - Série 1178 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-21 17:31:44,985 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:32:15,880 - WARNING - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-21 17:32:17,881 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:32:36,022 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-21 17:32:36,025 - INFO - request_bcb - Série 1178 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-21 17:32:36,026 - INFO - request_bcb - Série 1178 | Coleta concluida | Total: 6697 registros
+2026-09-21 17:32:36,179 - INFO - request_bcb - Série 4189 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:32:36,179 - INFO - functions - Série 4189 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:32:37,781 - INFO - functions - Série 4189 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:32:37,784 - INFO - request_bcb - Série 4189 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-21 17:32:37,785 - INFO - request_bcb - Série 4189 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:32:37,785 - INFO - functions - Série 4189 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:32:39,126 - INFO - functions - Série 4189 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:32:39,128 - INFO - request_bcb - Série 4189 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-21 17:32:39,129 - INFO - request_bcb - Série 4189 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:32:39,130 - INFO - functions - Série 4189 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:32:40,445 - INFO - functions - Série 4189 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-21 17:32:40,450 - INFO - request_bcb - Série 4189 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-21 17:32:40,451 - INFO - request_bcb - Série 4189 | Coleta concluida | Total: 320 registros
+2026-09-21 17:32:40,475 - INFO - request_bcb - Série 432 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:32:40,475 - INFO - functions - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:32:41,375 - INFO - functions - Série 432 | 2000-01-01 até 2009-01-01 | Requisição concluida | 3289 registros retornados
+2026-09-21 17:32:41,378 - INFO - request_bcb - Série 432 | Periodo 2000-01-01 até 2009-01-01 concluido | 3289 registros
+2026-09-21 17:32:41,378 - INFO - request_bcb - Série 432 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:32:41,379 - INFO - functions - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:33:12,278 - WARNING - functions - Série 432 | 2009-02-01 até 2018-02-01 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-21 17:33:14,279 - INFO - functions - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:33:45,165 - WARNING - functions - Série 432 | 2009-02-01 até 2018-02-01 | Tentativa 2/3 falhou | status=None | aguardando=4s
+2026-09-21 17:33:49,166 - INFO - functions - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:33:50,223 - INFO - functions - Série 432 | 2009-02-01 até 2018-02-01 | Requisição concluida | 3288 registros retornados
+2026-09-21 17:33:50,226 - INFO - request_bcb - Série 432 | Periodo 2009-02-01 até 2018-02-01 concluido | 3288 registros
+2026-09-21 17:33:50,227 - INFO - request_bcb - Série 432 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:33:50,228 - INFO - functions - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:34:21,052 - WARNING - functions - Série 432 | 2018-03-01 até 2026-08-31 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-21 17:34:23,053 - INFO - functions - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:34:23,990 - INFO - functions - Série 432 | 2018-03-01 até 2026-08-31 | Requisição concluida | 3106 registros retornados
+2026-09-21 17:34:23,992 - INFO - request_bcb - Série 432 | Periodo 2018-03-01 até 2026-08-31 concluido | 3106 registros
+2026-09-21 17:34:23,993 - INFO - request_bcb - Série 432 | Coleta concluida | Total: 9683 registros
+2026-09-21 17:34:24,262 - INFO - request_bcb - Série 4390 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:34:24,262 - INFO - functions - Série 4390 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:34:25,515 - INFO - functions - Série 4390 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:25,518 - INFO - request_bcb - Série 4390 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-21 17:34:25,518 - INFO - request_bcb - Série 4390 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:34:25,519 - INFO - functions - Série 4390 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:34:27,769 - INFO - functions - Série 4390 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:27,772 - INFO - request_bcb - Série 4390 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-21 17:34:27,773 - INFO - request_bcb - Série 4390 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:34:27,773 - INFO - functions - Série 4390 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:34:29,005 - INFO - functions - Série 4390 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-21 17:34:29,008 - INFO - request_bcb - Série 4390 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-21 17:34:29,009 - INFO - request_bcb - Série 4390 | Coleta concluida | Total: 320 registros
+2026-09-21 17:34:29,043 - INFO - request_ibge - Tabela 7060 | Coletando Periodo 2020-01-01 até 2026-12-01
+2026-09-21 17:34:29,044 - INFO - functions - Tabela 7060 | 2020-01-01 até 2026-12-01 | Iniciando Requisição
+2026-09-21 17:34:29,922 - INFO - functions - Tabela 7060 | 2020-01-01 até 2026-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:34:29,925 - INFO - request_ibge - Tabela 7060 | Coleta concluida | Total: 160 registros
+2026-09-21 17:34:29,943 - INFO - request_ibge - Tabela 2938 | Coletando Periodo 2006-07-01 até 2011-12-01
+2026-09-21 17:34:29,944 - INFO - functions - Tabela 2938 | 2006-07-01 até 2011-12-01 | Iniciando Requisição
+2026-09-21 17:34:30,912 - INFO - functions - Tabela 2938 | 2006-07-01 até 2011-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:34:30,915 - INFO - request_ibge - Tabela 2938 | Coleta concluida | Total: 132 registros
+2026-09-21 17:34:30,933 - INFO - request_ibge - Tabela 1419 | Coletando Periodo 2012-01-01 até 2019-12-01
+2026-09-21 17:34:30,933 - INFO - functions - Tabela 1419 | 2012-01-01 até 2019-12-01 | Iniciando Requisição
+2026-09-21 17:34:31,762 - INFO - functions - Tabela 1419 | 2012-01-01 até 2019-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:34:31,764 - INFO - request_ibge - Tabela 1419 | Coleta concluida | Total: 192 registros
+2026-09-21 17:34:31,776 - INFO - request_ibge - Tabela 655 | Coletando Periodo 2000-01-01 até 2006-06-01
+2026-09-21 17:34:31,777 - INFO - functions - Tabela 655 | 2000-01-01 até 2006-06-01 | Iniciando Requisição
+2026-09-21 17:34:32,851 - INFO - functions - Tabela 655 | 2000-01-01 até 2006-06-01 | Requisição concluida | 1 registros retornados
+2026-09-21 17:34:32,853 - INFO - request_ibge - Tabela 655 | Coleta concluida | Total: 78 registros
+2026-09-21 17:34:32,871 - INFO - request_bcb - Série 4513 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-21 17:34:32,872 - INFO - functions - Série 4513 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-21 17:34:34,129 - INFO - functions - Série 4513 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:34,132 - INFO - request_bcb - Série 4513 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-21 17:34:34,132 - INFO - request_bcb - Série 4513 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-21 17:34:34,133 - INFO - functions - Série 4513 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-21 17:34:35,359 - INFO - functions - Série 4513 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:35,362 - INFO - request_bcb - Série 4513 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-21 17:34:35,363 - INFO - request_bcb - Série 4513 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-21 17:34:35,364 - INFO - functions - Série 4513 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:34:36,596 - INFO - functions - Série 4513 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-21 17:34:36,599 - INFO - request_bcb - Série 4513 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-21 17:34:36,599 - INFO - request_bcb - Série 4513 | Coleta concluida | Total: 296 registros
+2026-09-21 17:34:36,623 - INFO - request_bcb - Série 4478 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-21 17:34:36,623 - INFO - functions - Série 4478 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-21 17:34:37,834 - INFO - functions - Série 4478 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:37,838 - INFO - request_bcb - Série 4478 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-21 17:34:37,838 - INFO - request_bcb - Série 4478 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-21 17:34:37,839 - INFO - functions - Série 4478 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-21 17:34:39,066 - INFO - functions - Série 4478 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:39,069 - INFO - request_bcb - Série 4478 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-21 17:34:39,070 - INFO - request_bcb - Série 4478 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-21 17:34:39,070 - INFO - functions - Série 4478 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:34:40,274 - INFO - functions - Série 4478 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-21 17:34:40,278 - INFO - request_bcb - Série 4478 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-21 17:34:40,278 - INFO - request_bcb - Série 4478 | Coleta concluida | Total: 296 registros
+2026-09-21 17:34:40,311 - INFO - request_bcb - Série 13762 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-21 17:34:40,311 - INFO - functions - Série 13762 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-21 17:34:41,512 - INFO - functions - Série 13762 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:41,515 - INFO - request_bcb - Série 13762 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-21 17:34:41,516 - INFO - request_bcb - Série 13762 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-21 17:34:41,517 - INFO - functions - Série 13762 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-21 17:34:42,938 - INFO - functions - Série 13762 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:42,940 - INFO - request_bcb - Série 13762 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-21 17:34:42,941 - INFO - request_bcb - Série 13762 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-21 17:34:42,942 - INFO - functions - Série 13762 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:34:44,029 - INFO - functions - Série 13762 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-21 17:34:44,032 - INFO - request_bcb - Série 13762 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-21 17:34:44,033 - INFO - request_bcb - Série 13762 | Coleta concluida | Total: 236 registros
+2026-09-21 17:34:44,064 - INFO - request_bcb - Série 13761 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-21 17:34:44,065 - INFO - functions - Série 13761 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-21 17:34:45,521 - INFO - functions - Série 13761 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:34:45,524 - INFO - request_bcb - Série 13761 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-21 17:34:45,525 - INFO - request_bcb - Série 13761 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-21 17:34:45,525 - INFO - functions - Série 13761 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-21 17:35:03,823 - WARNING - functions - Série 13761 | 2016-01-01 até 2025-01-01 | Tentativa 1/3 falhou | status=502 | aguardando=2s
+2026-09-21 17:35:05,825 - INFO - functions - Série 13761 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-21 17:35:08,224 - INFO - functions - Série 13761 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:35:08,226 - INFO - request_bcb - Série 13761 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-21 17:35:08,227 - INFO - request_bcb - Série 13761 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-21 17:35:08,227 - INFO - functions - Série 13761 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:35:09,245 - INFO - functions - Série 13761 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-21 17:35:09,248 - INFO - request_bcb - Série 13761 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-21 17:35:09,249 - INFO - request_bcb - Série 13761 | Coleta concluida | Total: 236 registros
+2026-09-21 17:35:09,276 - INFO - request_bcb - Moeda USD | Coletando Periodo 01-03-2000 até 30-07-2026
+2026-09-21 17:35:09,277 - INFO - functions - Moeda USD | 01-03-2000 até 30-07-2026 | Iniciando Requisição
+2026-09-21 17:35:10,114 - WARNING - functions - Moeda USD | 01-03-2000 até 30-07-2026 | Tentativa 1/3 falhou | status=500 | aguardando=2s
+2026-09-21 17:35:12,115 - INFO - functions - Moeda USD | 01-03-2000 até 30-07-2026 | Iniciando Requisição
+2026-09-21 17:35:13,360 - WARNING - functions - Moeda USD | 01-03-2000 até 30-07-2026 | Tentativa 2/3 falhou | status=500 | aguardando=4s
+2026-09-21 17:35:17,361 - INFO - functions - Moeda USD | 01-03-2000 até 30-07-2026 | Iniciando Requisição
+2026-09-21 17:35:18,377 - ERROR - functions - Moeda USD | 01-03-2000 até 30-07-2026 | Falha definitiva após 3 tentativas | status=500
+2026-09-21 17:37:51,321 - INFO - request_bcb - Moeda USD | Coletando Periodo 01-03-2000 até 07-30-2026
+2026-09-21 17:37:51,322 - INFO - functions - Moeda USD | 01-03-2000 até 07-30-2026 | Iniciando Requisição
+2026-09-21 17:37:52,765 - INFO - functions - Moeda USD | 01-03-2000 até 07-30-2026 | Requisição concluida | 2 registros retornados
+2026-09-21 17:37:52,767 - INFO - request_bcb - Moeda USD | Coleta Concluida | Total:6677
+2026-09-21 17:38:03,770 - INFO - request_bcb - Moeda USD | Coletando Periodo 01-03-2000 até 08-30-2026
+2026-09-21 17:38:03,771 - INFO - functions - Moeda USD | 01-03-2000 até 08-30-2026 | Iniciando Requisição
+2026-09-21 17:38:05,237 - INFO - functions - Moeda USD | 01-03-2000 até 08-30-2026 | Requisição concluida | 2 registros retornados
+2026-09-21 17:38:05,239 - INFO - request_bcb - Moeda USD | Coleta Concluida | Total:6698
+2026-09-21 17:38:23,483 - INFO - request_bcb - Série 11 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:38:23,484 - INFO - functions - Série 11 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:38:24,469 - INFO - functions - Série 11 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-21 17:38:24,471 - INFO - request_bcb - Série 11 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-21 17:38:24,472 - INFO - request_bcb - Série 11 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-21 17:38:24,472 - INFO - functions - Série 11 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-21 17:38:25,352 - INFO - functions - Série 11 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-21 17:38:25,354 - INFO - request_bcb - Série 11 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-21 17:38:25,354 - INFO - request_bcb - Série 11 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-21 17:38:25,354 - INFO - functions - Série 11 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:38:26,200 - INFO - functions - Série 11 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-21 17:38:26,201 - INFO - request_bcb - Série 11 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-21 17:38:26,202 - INFO - request_bcb - Série 11 | Coleta concluida | Total: 6697 registros
+2026-09-21 17:38:26,435 - INFO - request_bcb - Série 1178 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:38:26,436 - INFO - functions - Série 1178 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:38:27,540 - INFO - functions - Série 1178 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-21 17:38:27,543 - INFO - request_bcb - Série 1178 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-21 17:38:27,543 - INFO - request_bcb - Série 1178 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-21 17:38:27,544 - INFO - functions - Série 1178 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-21 17:38:28,536 - INFO - functions - Série 1178 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-21 17:38:28,539 - INFO - request_bcb - Série 1178 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-21 17:38:28,539 - INFO - request_bcb - Série 1178 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-21 17:38:28,540 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:38:29,553 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-21 17:38:29,555 - INFO - request_bcb - Série 1178 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-21 17:38:29,556 - INFO - request_bcb - Série 1178 | Coleta concluida | Total: 6697 registros
+2026-09-21 17:38:29,748 - INFO - request_bcb - Série 4189 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:38:29,749 - INFO - functions - Série 4189 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:38:30,719 - INFO - functions - Série 4189 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:30,721 - INFO - request_bcb - Série 4189 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-21 17:38:30,722 - INFO - request_bcb - Série 4189 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:38:30,723 - INFO - functions - Série 4189 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:38:31,586 - INFO - functions - Série 4189 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:31,589 - INFO - request_bcb - Série 4189 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-21 17:38:31,590 - INFO - request_bcb - Série 4189 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:38:31,590 - INFO - functions - Série 4189 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:38:32,483 - INFO - functions - Série 4189 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-21 17:38:32,486 - INFO - request_bcb - Série 4189 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-21 17:38:32,487 - INFO - request_bcb - Série 4189 | Coleta concluida | Total: 320 registros
+2026-09-21 17:38:32,526 - INFO - request_bcb - Série 432 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:38:32,527 - INFO - functions - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:38:33,524 - INFO - functions - Série 432 | 2000-01-01 até 2009-01-01 | Requisição concluida | 3289 registros retornados
+2026-09-21 17:38:33,526 - INFO - request_bcb - Série 432 | Periodo 2000-01-01 até 2009-01-01 concluido | 3289 registros
+2026-09-21 17:38:33,527 - INFO - request_bcb - Série 432 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:38:33,528 - INFO - functions - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:38:34,763 - INFO - functions - Série 432 | 2009-02-01 até 2018-02-01 | Requisição concluida | 3288 registros retornados
+2026-09-21 17:38:34,766 - INFO - request_bcb - Série 432 | Periodo 2009-02-01 até 2018-02-01 concluido | 3288 registros
+2026-09-21 17:38:34,766 - INFO - request_bcb - Série 432 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:38:34,767 - INFO - functions - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:38:35,953 - INFO - functions - Série 432 | 2018-03-01 até 2026-08-31 | Requisição concluida | 3106 registros retornados
+2026-09-21 17:38:35,955 - INFO - request_bcb - Série 432 | Periodo 2018-03-01 até 2026-08-31 concluido | 3106 registros
+2026-09-21 17:38:35,956 - INFO - request_bcb - Série 432 | Coleta concluida | Total: 9683 registros
+2026-09-21 17:38:36,304 - INFO - request_bcb - Série 4390 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:38:36,305 - INFO - functions - Série 4390 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:38:37,184 - INFO - functions - Série 4390 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:37,187 - INFO - request_bcb - Série 4390 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-21 17:38:37,187 - INFO - request_bcb - Série 4390 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:38:37,188 - INFO - functions - Série 4390 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:38:38,011 - INFO - functions - Série 4390 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:38,014 - INFO - request_bcb - Série 4390 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-21 17:38:38,015 - INFO - request_bcb - Série 4390 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:38:38,015 - INFO - functions - Série 4390 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:38:39,293 - INFO - functions - Série 4390 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-21 17:38:39,295 - INFO - request_bcb - Série 4390 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-21 17:38:39,296 - INFO - request_bcb - Série 4390 | Coleta concluida | Total: 320 registros
+2026-09-21 17:38:39,317 - INFO - request_ibge - Tabela 7060 | Coletando Periodo 2020-01-01 até 2026-12-01
+2026-09-21 17:38:39,317 - INFO - functions - Tabela 7060 | 2020-01-01 até 2026-12-01 | Iniciando Requisição
+2026-09-21 17:38:40,250 - INFO - functions - Tabela 7060 | 2020-01-01 até 2026-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:38:40,252 - INFO - request_ibge - Tabela 7060 | Coleta concluida | Total: 160 registros
+2026-09-21 17:38:40,275 - INFO - request_ibge - Tabela 2938 | Coletando Periodo 2006-07-01 até 2011-12-01
+2026-09-21 17:38:40,275 - INFO - functions - Tabela 2938 | 2006-07-01 até 2011-12-01 | Iniciando Requisição
+2026-09-21 17:38:41,284 - INFO - functions - Tabela 2938 | 2006-07-01 até 2011-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:38:41,287 - INFO - request_ibge - Tabela 2938 | Coleta concluida | Total: 132 registros
+2026-09-21 17:38:41,307 - INFO - request_ibge - Tabela 1419 | Coletando Periodo 2012-01-01 até 2019-12-01
+2026-09-21 17:38:41,308 - INFO - functions - Tabela 1419 | 2012-01-01 até 2019-12-01 | Iniciando Requisição
+2026-09-21 17:38:42,187 - INFO - functions - Tabela 1419 | 2012-01-01 até 2019-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:38:42,190 - INFO - request_ibge - Tabela 1419 | Coleta concluida | Total: 192 registros
+2026-09-21 17:38:42,211 - INFO - request_ibge - Tabela 655 | Coletando Periodo 2000-01-01 até 2006-06-01
+2026-09-21 17:38:42,212 - INFO - functions - Tabela 655 | 2000-01-01 até 2006-06-01 | Iniciando Requisição
+2026-09-21 17:38:43,196 - INFO - functions - Tabela 655 | 2000-01-01 até 2006-06-01 | Requisição concluida | 1 registros retornados
+2026-09-21 17:38:43,199 - INFO - request_ibge - Tabela 655 | Coleta concluida | Total: 78 registros
+2026-09-21 17:38:43,212 - INFO - request_bcb - Série 4513 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-21 17:38:43,212 - INFO - functions - Série 4513 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-21 17:38:44,198 - INFO - functions - Série 4513 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:44,200 - INFO - request_bcb - Série 4513 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-21 17:38:44,201 - INFO - request_bcb - Série 4513 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-21 17:38:44,201 - INFO - functions - Série 4513 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-21 17:38:45,272 - INFO - functions - Série 4513 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:45,275 - INFO - request_bcb - Série 4513 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-21 17:38:45,276 - INFO - request_bcb - Série 4513 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-21 17:38:45,276 - INFO - functions - Série 4513 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:38:46,163 - INFO - functions - Série 4513 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-21 17:38:46,165 - INFO - request_bcb - Série 4513 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-21 17:38:46,166 - INFO - request_bcb - Série 4513 | Coleta concluida | Total: 296 registros
+2026-09-21 17:38:46,195 - INFO - request_bcb - Série 4478 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-21 17:38:46,196 - INFO - functions - Série 4478 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-21 17:38:47,120 - INFO - functions - Série 4478 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:47,122 - INFO - request_bcb - Série 4478 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-21 17:38:47,123 - INFO - request_bcb - Série 4478 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-21 17:38:47,123 - INFO - functions - Série 4478 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-21 17:38:48,134 - INFO - functions - Série 4478 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:48,136 - INFO - request_bcb - Série 4478 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-21 17:38:48,136 - INFO - request_bcb - Série 4478 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-21 17:38:48,137 - INFO - functions - Série 4478 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:38:48,999 - INFO - functions - Série 4478 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-21 17:38:49,001 - INFO - request_bcb - Série 4478 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-21 17:38:49,002 - INFO - request_bcb - Série 4478 | Coleta concluida | Total: 296 registros
+2026-09-21 17:38:49,030 - INFO - request_bcb - Série 13762 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-21 17:38:49,030 - INFO - functions - Série 13762 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-21 17:38:49,953 - INFO - functions - Série 13762 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:49,956 - INFO - request_bcb - Série 13762 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-21 17:38:49,957 - INFO - request_bcb - Série 13762 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-21 17:38:49,957 - INFO - functions - Série 13762 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-21 17:38:50,930 - INFO - functions - Série 13762 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:50,933 - INFO - request_bcb - Série 13762 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-21 17:38:50,934 - INFO - request_bcb - Série 13762 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-21 17:38:50,934 - INFO - functions - Série 13762 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:38:51,907 - INFO - functions - Série 13762 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-21 17:38:51,910 - INFO - request_bcb - Série 13762 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-21 17:38:51,910 - INFO - request_bcb - Série 13762 | Coleta concluida | Total: 236 registros
+2026-09-21 17:38:51,949 - INFO - request_bcb - Série 13761 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-21 17:38:51,950 - INFO - functions - Série 13761 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-21 17:38:52,925 - INFO - functions - Série 13761 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:52,928 - INFO - request_bcb - Série 13761 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-21 17:38:52,928 - INFO - request_bcb - Série 13761 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-21 17:38:52,929 - INFO - functions - Série 13761 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-21 17:38:53,907 - INFO - functions - Série 13761 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:38:53,910 - INFO - request_bcb - Série 13761 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-21 17:38:53,911 - INFO - request_bcb - Série 13761 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-21 17:38:53,911 - INFO - functions - Série 13761 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:38:54,825 - INFO - functions - Série 13761 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-21 17:38:54,829 - INFO - request_bcb - Série 13761 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-21 17:38:54,830 - INFO - request_bcb - Série 13761 | Coleta concluida | Total: 236 registros
+2026-09-21 17:38:54,839 - INFO - request_bcb - Moeda USD | Coletando Periodo 01-03-2000 até 08-30-2026
+2026-09-21 17:38:54,839 - INFO - functions - Moeda USD | 01-03-2000 até 08-30-2026 | Iniciando Requisição
+2026-09-21 17:38:56,210 - INFO - functions - Moeda USD | 01-03-2000 até 08-30-2026 | Requisição concluida | 2 registros retornados
+2026-09-21 17:38:56,212 - INFO - request_bcb - Moeda USD | Coleta Concluida | Total:6698
+2026-09-21 17:40:58,087 - INFO - request_bcb - Série 11 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:40:58,088 - INFO - functions - Série 11 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:41:16,877 - INFO - functions - Série 11 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-21 17:41:16,880 - INFO - request_bcb - Série 11 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-21 17:41:16,881 - INFO - request_bcb - Série 11 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-21 17:41:16,882 - INFO - functions - Série 11 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-21 17:41:34,483 - INFO - functions - Série 11 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-21 17:41:34,485 - INFO - request_bcb - Série 11 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-21 17:41:34,485 - INFO - request_bcb - Série 11 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-21 17:41:34,485 - INFO - functions - Série 11 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:41:35,468 - INFO - functions - Série 11 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-21 17:41:35,471 - INFO - request_bcb - Série 11 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-21 17:41:35,472 - INFO - request_bcb - Série 11 | Coleta concluida | Total: 6697 registros
+2026-09-21 17:41:35,637 - INFO - request_bcb - Série 1178 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:41:35,637 - INFO - functions - Série 1178 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:41:36,632 - INFO - functions - Série 1178 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-21 17:41:36,634 - INFO - request_bcb - Série 1178 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-21 17:41:36,635 - INFO - request_bcb - Série 1178 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-21 17:41:36,636 - INFO - functions - Série 1178 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-21 17:41:37,575 - INFO - functions - Série 1178 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-21 17:41:37,577 - INFO - request_bcb - Série 1178 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-21 17:41:37,577 - INFO - request_bcb - Série 1178 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-21 17:41:37,578 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:41:38,674 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-21 17:41:38,676 - INFO - request_bcb - Série 1178 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-21 17:41:38,676 - INFO - request_bcb - Série 1178 | Coleta concluida | Total: 6697 registros
+2026-09-21 17:41:38,857 - INFO - request_bcb - Série 4189 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:41:38,858 - INFO - functions - Série 4189 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:41:40,146 - INFO - functions - Série 4189 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:41:40,149 - INFO - request_bcb - Série 4189 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-21 17:41:40,150 - INFO - request_bcb - Série 4189 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:41:40,151 - INFO - functions - Série 4189 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:41:41,128 - INFO - functions - Série 4189 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:41:41,130 - INFO - request_bcb - Série 4189 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-21 17:41:41,131 - INFO - request_bcb - Série 4189 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:41:41,131 - INFO - functions - Série 4189 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:41:42,267 - INFO - functions - Série 4189 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-21 17:41:42,270 - INFO - request_bcb - Série 4189 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-21 17:41:42,271 - INFO - request_bcb - Série 4189 | Coleta concluida | Total: 320 registros
+2026-09-21 17:41:42,307 - INFO - request_bcb - Série 432 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:41:42,307 - INFO - functions - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:42:13,092 - WARNING - functions - Série 432 | 2000-01-01 até 2009-01-01 | Tentativa 1/3 falhou | status=None | aguardando=2s
+2026-09-21 17:42:15,094 - INFO - functions - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:43:31,180 - INFO - request_bcb - Série 11 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:43:31,181 - INFO - functions - Série 11 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:43:32,366 - INFO - functions - Série 11 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-21 17:43:32,368 - INFO - request_bcb - Série 11 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-21 17:43:32,369 - INFO - request_bcb - Série 11 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-21 17:43:32,370 - INFO - functions - Série 11 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-21 17:43:33,624 - INFO - functions - Série 11 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-21 17:43:33,626 - INFO - request_bcb - Série 11 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-21 17:43:33,627 - INFO - request_bcb - Série 11 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-21 17:43:33,627 - INFO - functions - Série 11 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:43:34,628 - INFO - functions - Série 11 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-21 17:43:34,629 - INFO - request_bcb - Série 11 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-21 17:43:34,630 - INFO - request_bcb - Série 11 | Coleta concluida | Total: 6697 registros
+2026-09-21 17:43:34,825 - INFO - request_bcb - Série 1178 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:43:34,825 - INFO - functions - Série 1178 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:43:35,748 - INFO - functions - Série 1178 | 2000-01-01 até 2009-01-01 | Requisição concluida | 2262 registros retornados
+2026-09-21 17:43:35,751 - INFO - request_bcb - Série 1178 | Periodo 2000-01-01 até 2009-01-01 concluido | 2262 registros
+2026-09-21 17:43:35,751 - INFO - request_bcb - Série 1178 | Coletando Periodo 2009-01-02 até 2018-01-02
+2026-09-21 17:43:35,752 - INFO - functions - Série 1178 | 2009-01-02 até 2018-01-02 | Iniciando Requisição
+2026-09-21 17:43:36,711 - INFO - functions - Série 1178 | 2009-01-02 até 2018-01-02 | Requisição concluida | 2260 registros retornados
+2026-09-21 17:43:36,713 - INFO - request_bcb - Série 1178 | Periodo 2009-01-02 até 2018-01-02 concluido | 2260 registros
+2026-09-21 17:43:36,713 - INFO - request_bcb - Série 1178 | Coletando Periodo 2018-01-03 até 2026-08-31
+2026-09-21 17:43:36,714 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:43:37,537 - INFO - functions - Série 1178 | 2018-01-03 até 2026-08-31 | Requisição concluida | 2175 registros retornados
+2026-09-21 17:43:37,538 - INFO - request_bcb - Série 1178 | Periodo 2018-01-03 até 2026-08-31 concluido | 2175 registros
+2026-09-21 17:43:37,539 - INFO - request_bcb - Série 1178 | Coleta concluida | Total: 6697 registros
+2026-09-21 17:43:37,716 - INFO - request_bcb - Série 4189 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:43:37,717 - INFO - functions - Série 4189 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:43:38,750 - INFO - functions - Série 4189 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:38,752 - INFO - request_bcb - Série 4189 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-21 17:43:38,754 - INFO - request_bcb - Série 4189 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:43:38,755 - INFO - functions - Série 4189 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:43:39,742 - INFO - functions - Série 4189 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:39,744 - INFO - request_bcb - Série 4189 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-21 17:43:39,745 - INFO - request_bcb - Série 4189 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:43:39,745 - INFO - functions - Série 4189 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:43:40,600 - INFO - functions - Série 4189 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-21 17:43:40,602 - INFO - request_bcb - Série 4189 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-21 17:43:40,602 - INFO - request_bcb - Série 4189 | Coleta concluida | Total: 320 registros
+2026-09-21 17:43:40,625 - INFO - request_bcb - Série 432 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:43:40,625 - INFO - functions - Série 432 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:43:41,698 - INFO - functions - Série 432 | 2000-01-01 até 2009-01-01 | Requisição concluida | 3289 registros retornados
+2026-09-21 17:43:41,701 - INFO - request_bcb - Série 432 | Periodo 2000-01-01 até 2009-01-01 concluido | 3289 registros
+2026-09-21 17:43:41,701 - INFO - request_bcb - Série 432 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:43:41,702 - INFO - functions - Série 432 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:43:42,715 - INFO - functions - Série 432 | 2009-02-01 até 2018-02-01 | Requisição concluida | 3288 registros retornados
+2026-09-21 17:43:42,718 - INFO - request_bcb - Série 432 | Periodo 2009-02-01 até 2018-02-01 concluido | 3288 registros
+2026-09-21 17:43:42,719 - INFO - request_bcb - Série 432 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:43:42,719 - INFO - functions - Série 432 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:43:43,644 - INFO - functions - Série 432 | 2018-03-01 até 2026-08-31 | Requisição concluida | 3106 registros retornados
+2026-09-21 17:43:43,647 - INFO - request_bcb - Série 432 | Periodo 2018-03-01 até 2026-08-31 concluido | 3106 registros
+2026-09-21 17:43:43,647 - INFO - request_bcb - Série 432 | Coleta concluida | Total: 9683 registros
+2026-09-21 17:43:43,857 - INFO - request_bcb - Série 4390 | Coletando Periodo 2000-01-01 até 2009-01-01
+2026-09-21 17:43:43,857 - INFO - functions - Série 4390 | 2000-01-01 até 2009-01-01 | Iniciando Requisição
+2026-09-21 17:43:44,919 - INFO - functions - Série 4390 | 2000-01-01 até 2009-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:44,922 - INFO - request_bcb - Série 4390 | Periodo 2000-01-01 até 2009-01-01 concluido | 109 registros
+2026-09-21 17:43:44,923 - INFO - request_bcb - Série 4390 | Coletando Periodo 2009-02-01 até 2018-02-01
+2026-09-21 17:43:44,923 - INFO - functions - Série 4390 | 2009-02-01 até 2018-02-01 | Iniciando Requisição
+2026-09-21 17:43:45,866 - INFO - functions - Série 4390 | 2009-02-01 até 2018-02-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:45,868 - INFO - request_bcb - Série 4390 | Periodo 2009-02-01 até 2018-02-01 concluido | 109 registros
+2026-09-21 17:43:45,868 - INFO - request_bcb - Série 4390 | Coletando Periodo 2018-03-01 até 2026-08-31
+2026-09-21 17:43:45,869 - INFO - functions - Série 4390 | 2018-03-01 até 2026-08-31 | Iniciando Requisição
+2026-09-21 17:43:46,791 - INFO - functions - Série 4390 | 2018-03-01 até 2026-08-31 | Requisição concluida | 102 registros retornados
+2026-09-21 17:43:46,792 - INFO - request_bcb - Série 4390 | Periodo 2018-03-01 até 2026-08-31 concluido | 102 registros
+2026-09-21 17:43:46,793 - INFO - request_bcb - Série 4390 | Coleta concluida | Total: 320 registros
+2026-09-21 17:43:46,819 - INFO - request_ibge - Tabela 7060 | Coletando Periodo 2020-01-01 até 2026-12-01
+2026-09-21 17:43:46,819 - INFO - functions - Tabela 7060 | 2020-01-01 até 2026-12-01 | Iniciando Requisição
+2026-09-21 17:43:47,853 - INFO - functions - Tabela 7060 | 2020-01-01 até 2026-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:43:47,856 - INFO - request_ibge - Tabela 7060 | Coleta concluida | Total: 160 registros
+2026-09-21 17:43:47,875 - INFO - request_ibge - Tabela 2938 | Coletando Periodo 2006-07-01 até 2011-12-01
+2026-09-21 17:43:47,875 - INFO - functions - Tabela 2938 | 2006-07-01 até 2011-12-01 | Iniciando Requisição
+2026-09-21 17:43:48,926 - INFO - functions - Tabela 2938 | 2006-07-01 até 2011-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:43:48,928 - INFO - request_ibge - Tabela 2938 | Coleta concluida | Total: 132 registros
+2026-09-21 17:43:48,943 - INFO - request_ibge - Tabela 1419 | Coletando Periodo 2012-01-01 até 2019-12-01
+2026-09-21 17:43:48,943 - INFO - functions - Tabela 1419 | 2012-01-01 até 2019-12-01 | Iniciando Requisição
+2026-09-21 17:43:49,968 - INFO - functions - Tabela 1419 | 2012-01-01 até 2019-12-01 | Requisição concluida | 2 registros retornados
+2026-09-21 17:43:49,970 - INFO - request_ibge - Tabela 1419 | Coleta concluida | Total: 192 registros
+2026-09-21 17:43:49,988 - INFO - request_ibge - Tabela 655 | Coletando Periodo 2000-01-01 até 2006-06-01
+2026-09-21 17:43:49,989 - INFO - functions - Tabela 655 | 2000-01-01 até 2006-06-01 | Iniciando Requisição
+2026-09-21 17:43:50,954 - INFO - functions - Tabela 655 | 2000-01-01 até 2006-06-01 | Requisição concluida | 1 registros retornados
+2026-09-21 17:43:50,956 - INFO - request_ibge - Tabela 655 | Coleta concluida | Total: 78 registros
+2026-09-21 17:43:50,970 - INFO - request_bcb - Série 4513 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-21 17:43:50,970 - INFO - functions - Série 4513 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-21 17:43:52,121 - INFO - functions - Série 4513 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:52,123 - INFO - request_bcb - Série 4513 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-21 17:43:52,124 - INFO - request_bcb - Série 4513 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-21 17:43:52,125 - INFO - functions - Série 4513 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-21 17:43:53,198 - INFO - functions - Série 4513 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:53,201 - INFO - request_bcb - Série 4513 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-21 17:43:53,202 - INFO - request_bcb - Série 4513 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-21 17:43:53,202 - INFO - functions - Série 4513 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:43:54,111 - INFO - functions - Série 4513 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-21 17:43:54,114 - INFO - request_bcb - Série 4513 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-21 17:43:54,115 - INFO - request_bcb - Série 4513 | Coleta concluida | Total: 296 registros
+2026-09-21 17:43:54,139 - INFO - request_bcb - Série 4478 | Coletando Periodo 2001-12-01 até 2010-12-01
+2026-09-21 17:43:54,139 - INFO - functions - Série 4478 | 2001-12-01 até 2010-12-01 | Iniciando Requisição
+2026-09-21 17:43:55,103 - INFO - functions - Série 4478 | 2001-12-01 até 2010-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:55,107 - INFO - request_bcb - Série 4478 | Periodo 2001-12-01 até 2010-12-01 concluido | 109 registros
+2026-09-21 17:43:55,107 - INFO - request_bcb - Série 4478 | Coletando Periodo 2011-01-01 até 2020-01-01
+2026-09-21 17:43:55,108 - INFO - functions - Série 4478 | 2011-01-01 até 2020-01-01 | Iniciando Requisição
+2026-09-21 17:43:56,089 - INFO - functions - Série 4478 | 2011-01-01 até 2020-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:56,092 - INFO - request_bcb - Série 4478 | Periodo 2011-01-01 até 2020-01-01 concluido | 109 registros
+2026-09-21 17:43:56,093 - INFO - request_bcb - Série 4478 | Coletando Periodo 2020-02-01 até 2026-07-31
+2026-09-21 17:43:56,093 - INFO - functions - Série 4478 | 2020-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:43:57,037 - INFO - functions - Série 4478 | 2020-02-01 até 2026-07-31 | Requisição concluida | 78 registros retornados
+2026-09-21 17:43:57,039 - INFO - request_bcb - Série 4478 | Periodo 2020-02-01 até 2026-07-31 concluido | 78 registros
+2026-09-21 17:43:57,040 - INFO - request_bcb - Série 4478 | Coleta concluida | Total: 296 registros
+2026-09-21 17:43:57,068 - INFO - request_bcb - Série 13762 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-21 17:43:57,068 - INFO - functions - Série 13762 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-21 17:43:58,031 - INFO - functions - Série 13762 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:58,033 - INFO - request_bcb - Série 13762 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-21 17:43:58,034 - INFO - request_bcb - Série 13762 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-21 17:43:58,034 - INFO - functions - Série 13762 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-21 17:43:58,945 - INFO - functions - Série 13762 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:43:58,948 - INFO - request_bcb - Série 13762 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-21 17:43:58,949 - INFO - request_bcb - Série 13762 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-21 17:43:58,949 - INFO - functions - Série 13762 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:43:59,945 - INFO - functions - Série 13762 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-21 17:43:59,947 - INFO - request_bcb - Série 13762 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-21 17:43:59,948 - INFO - request_bcb - Série 13762 | Coleta concluida | Total: 236 registros
+2026-09-21 17:43:59,973 - INFO - request_bcb - Série 13761 | Coletando Periodo 2006-12-01 até 2015-12-01
+2026-09-21 17:43:59,974 - INFO - functions - Série 13761 | 2006-12-01 até 2015-12-01 | Iniciando Requisição
+2026-09-21 17:44:01,002 - INFO - functions - Série 13761 | 2006-12-01 até 2015-12-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:44:01,004 - INFO - request_bcb - Série 13761 | Periodo 2006-12-01 até 2015-12-01 concluido | 109 registros
+2026-09-21 17:44:01,004 - INFO - request_bcb - Série 13761 | Coletando Periodo 2016-01-01 até 2025-01-01
+2026-09-21 17:44:01,004 - INFO - functions - Série 13761 | 2016-01-01 até 2025-01-01 | Iniciando Requisição
+2026-09-21 17:44:01,942 - INFO - functions - Série 13761 | 2016-01-01 até 2025-01-01 | Requisição concluida | 109 registros retornados
+2026-09-21 17:44:01,945 - INFO - request_bcb - Série 13761 | Periodo 2016-01-01 até 2025-01-01 concluido | 109 registros
+2026-09-21 17:44:01,945 - INFO - request_bcb - Série 13761 | Coletando Periodo 2025-02-01 até 2026-07-31
+2026-09-21 17:44:01,946 - INFO - functions - Série 13761 | 2025-02-01 até 2026-07-31 | Iniciando Requisição
+2026-09-21 17:44:02,840 - INFO - functions - Série 13761 | 2025-02-01 até 2026-07-31 | Requisição concluida | 18 registros retornados
+2026-09-21 17:44:02,843 - INFO - request_bcb - Série 13761 | Periodo 2025-02-01 até 2026-07-31 concluido | 18 registros
+2026-09-21 17:44:02,843 - INFO - request_bcb - Série 13761 | Coleta concluida | Total: 236 registros
+2026-09-21 17:44:02,849 - INFO - request_bcb - Moeda USD | Coletando Periodo 01-03-2000 até 08-30-2026
+2026-09-21 17:44:02,849 - INFO - functions - Moeda USD | 01-03-2000 até 08-30-2026 | Iniciando Requisição
+2026-09-21 17:44:03,914 - INFO - functions - Moeda USD | 01-03-2000 até 08-30-2026 | Requisição concluida | 2 registros retornados
+2026-09-21 17:44:03,916 - INFO - request_bcb - Moeda USD | Coleta Concluida | Total:6698
+2026-09-21 17:44:05,867 - INFO - load_db - Carga da tabela ptax realizada com Sucesso
+2026-09-21 17:44:05,912 - INFO - load_db - Carga da tabela divida_liquida realizada com Sucesso
+2026-09-21 17:44:05,959 - INFO - load_db - Carga da tabela divida_bruta realizada com Sucesso
+2026-09-21 17:44:06,073 - INFO - load_db - Carga da tabela selic_diaria realizada com Sucesso
+2026-09-21 17:44:06,156 - INFO - load_db - Carga da tabela selic_mensal realizada com Sucesso
+2026-09-21 17:44:06,214 - INFO - load_db - Carga da tabela ipca realizada com Sucesso
